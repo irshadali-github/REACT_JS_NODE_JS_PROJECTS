@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:"Montserrat", sans-serif;
+}
 body{
     background-color: #FEF3E2;
+    padding: 0 16px;
+}
+header{
+    background-color: #FAB12F;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+header h1{
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
 }
