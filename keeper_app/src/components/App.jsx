@@ -2,7 +2,6 @@ import React,{useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
-import notes from "../notes";
 import Form from "./Form";
 
 function App(){
@@ -22,7 +21,24 @@ function App(){
     function addNote(event){
         console.log("add button clicked");
         setAddFullNote((prevValue)=>{
-            return [...prevValue,fullNote];
+           if(prevValue.length > 0){
+                if(fullNote.content!=="" && fullNote.content!==""){
+                    //console.log("both condition is true");
+                    return [...prevValue,fullNote];
+                }else{
+                    //console.log("only first condition is true");
+                    return [...prevValue];
+                }
+           }else{
+                if(fullNote.content!=="" && fullNote.content!==""){
+                    //console.log("else first condition is true");
+                    return [fullNote];
+                }else{
+                    //console.log("else second condition is true");
+                    return [];
+                }
+           }
+            
         })
         console.log(addFullNote);
         setFullNote(()=>{
