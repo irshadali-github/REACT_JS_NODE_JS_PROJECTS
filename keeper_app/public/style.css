@@ -8,6 +8,7 @@ html{
 }
 body{
     background-color: #FEF3E2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     padding: 0 16px;
 }
 header{
@@ -64,7 +65,7 @@ footer p{
     cursor: pointer;
     background: none;
 }
-form{
+.create-note{
     position: relative;
     width: 480px;
     margin: 30px auto 20px auto;
@@ -74,8 +75,8 @@ form{
     box-shadow: 0px 1px 5px rgb(138, 137, 137);
  
 }
-form input,
-form textarea{
+.create-note input,
+.create-note textarea{
     width: 100%;
     border: none;
     outline: none;
@@ -84,7 +85,7 @@ form textarea{
     font-size: 1.2em;
     resize: none;
 }
-form button{
+.create-note button{
     position: absolute;
     right: 18px;
     bottom: -18px;
@@ -94,7 +95,10 @@ form button{
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
     outline: none;
+}
+.create-note button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
