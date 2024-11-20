@@ -1,0 +1,20 @@
+.row{
+   background:#FC8F54 ;
+   margin-left: 2px;
+   margin-right: 2px;
+}
+.navbar{
+   margin-top: 10px;
+   font-family: "McLaren", sans-serif;
+   font-weight: 400;
+   --bs-navbar-color: #fff;
+   --bs-navbar-hover-color: #AA5486;
+}
+.title h1{
+   padding-top: 11px;
+   text-align: center;
+   color: #fff;
+}
+.container-fluid{
+   text-align: center;
+}
