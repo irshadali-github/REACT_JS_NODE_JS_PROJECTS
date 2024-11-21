@@ -1,0 +1,17 @@
+.signup-container{
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.signup-title{
+    background: #62825D;
+    color: #fff;
+    border-radius: 7px 7px 0px 0px;
+    
+}
+.signup-card{
+    border-radius: 7px;
+    box-shadow:4px 7px 9px #ccc;
+}

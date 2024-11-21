@@ -1,0 +1,15 @@
+html{
+    font-family:"Montserrat", sans-serif;
+}
+body{
+    background: #FBF4DB;
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+}
+#error-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    
+}
